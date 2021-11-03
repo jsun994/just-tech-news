@@ -14,6 +14,7 @@ async function upvoteClickHandler(event) {
       document.location.reload();
     } else {
       alert(response.statusText);
+      alert('only one like boi');
     }
 }
   
